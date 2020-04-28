@@ -4,12 +4,9 @@ import java.util.List;
 
 public class Citta {
 	
-	
 	private String nome;
 	private List<Rilevamento> rilevamenti;
 	private int counter = 0;
-	
-	
 	
 	public Citta(String nome) {
 		this.nome = nome;
